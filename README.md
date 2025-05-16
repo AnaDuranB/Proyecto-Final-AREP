@@ -14,9 +14,7 @@ Este prototipo implementa un sistema de detección de estrés en tiempo real par
 
 ## Arquitectura del sistema
 
-```
-Frontend (este código) → API Gateway AWS → Backend de análisis (Rekognition/Lambda)
-```
+![PROYECTO_AREP-MVP drawio](https://github.com/user-attachments/assets/a0385b0e-dad2-43ca-a6c5-81addd5ff5ab)
 
 ## Requisitos técnicos
 
