@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detección de Estrés en Tiempo Real</title>
+    <link rel="stylesheet" type="text/css" href="styless.css">
+</head>
+<body>
+    <h1>Monitor de Estrés para Conductores</h1>
+    <p>Análisis facial en tiempo real (se capturarán fotos automáticamente al detectar estrés)</p>
+    
+    <div id="video-container">
+        <video id="video" width="640" height="480" autoplay playsinline></video>
+        <canvas id="canvas" width="640" height="480"></canvas>
+    </div>
+    
+    <div id="status">Inicializando cámara...</div>
+    
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1044.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

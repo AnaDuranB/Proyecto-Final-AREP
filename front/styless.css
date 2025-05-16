@@ -1,0 +1,34 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#video-container {
+    position: relative;
+    margin: 0 auto;
+    width: 640px;
+}
+#video {
+    background: #000;
+    width: 100%;
+    border-radius: 8px;
+}
+#canvas {
+    display: none;
+}
+#status {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.stress-detected {
+    background-color: #ffcccc;
+    color: #d8000c;
+}
+.normal {
+    background-color: #ccffcc;
+    color: #007a00;
+}
